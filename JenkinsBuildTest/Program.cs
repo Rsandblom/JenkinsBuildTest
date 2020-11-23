@@ -2,7 +2,7 @@
 
 namespace JenkinsBuildTest
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -12,7 +12,7 @@ namespace JenkinsBuildTest
             Console.WriteLine(i);
         }
 
-        private static int AddTwoNumbers(int i, int j)
+        public static int AddTwoNumbers(int i, int j)
         {
             return i + j;
         }
